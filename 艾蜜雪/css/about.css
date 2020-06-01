@@ -1,0 +1,178 @@
+header,.shooting{
+	width: 1200px;
+	margin: 0 auto;
+}
+header>nav span{
+	position: absolute;
+	bottom:0;
+	left: 120px;
+	width: 120px;
+	height: 3px;
+	background: #fc7861 ;
+}
+/*大图banner*/
+.banner>img{
+	width: 100%;
+}
+/*拍摄基地导航*/
+.title{
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 26px;
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+	padding-bottom: 8px;
+	margin-right: 100px;
+}
+.title .title_right a{
+	float: left;
+	font: 14px/1 "";
+}
+.title .title_right a.active{
+	color: #fc8370;
+}
+.title .title_right{
+	float: right;
+}
+/*左边的部分*/
+.shooting{
+	overflow: hidden;
+	position: relative;
+}
+.shooting .shooting_left {
+	float: left;
+}
+.shooting .shooting_left h2{
+	font:400 22px/1 "";
+	text-align: center;
+	padding-top: 6px;
+	padding-left: 16px;
+	background: url(../img/bg.jpg) no-repeat left 0px top 8px;
+	
+}
+.shooting .shooting_left li{
+	border-left: 1px solid #666;
+	padding-bottom: 32px;
+	line-height: 48px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+.shooting .shooting_left li>span{
+	display: inline;
+}
+.shooting .shooting_left li>span:nth-of-type(1){
+	   margin-right: 16px;
+}
+.shooting .shooting_left li>span:nth-of-type(2){
+	   margin-left: 18px;
+	   font-size: 18px;
+}
+.shooting .shooting_left li.active{
+	color: #fc8370;
+}
+/*右边的部分*/
+.shooting_right{
+	float: left;
+	margin-left: 72px;
+	width: 986px;
+	margin-top: 45px;
+	opacity: 0;
+	transition: all 1s;
+}
+.shooting_right .left{
+	width: 50%;
+	float: left;
+	overflow: hidden;	
+}
+.shooting_right .left .tit{
+	background: url(../img/jiandao.jpg) no-repeat left 0px bottom 0px;
+	overflow: hidden;
+	margin-bottom: 16px;
+	padding-bottom: 23px;
+}
+.shooting_right .left .tit h3{
+	font: 400 17px/1 "";
+	float: left;
+}
+.shooting_right .left .tit span{
+	font: 12px/1 "";
+	color: #a1a1a1;
+	float: left;
+	margin-left: 30px;
+	margin-top: 4px;
+}
+.shooting_right .left p{
+	font: 14px/22px "";
+	color: #a3a3a3;
+	margin-bottom: 58px;
+}
+.shooting_right .left:nth-child(2) .tit{
+	margin-top: 26px;	
+	margin-left: 30px;
+}
+.shooting_right .left:nth-child(2) p{	
+	margin-left: 30px;
+}
+.shooting_right .left:nth-child(3){
+	float: left;
+}
+.img1{
+	float: left;
+	width: 50%;
+}
+/*发展历程*/
+.about{
+	margin-top: 46px;
+	margin-left: 18px;
+	float: right;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 135px;
+	transition: all 1s;
+}
+/*左边的*/
+.about .left .tit h3{
+	font: 400 17px/1 "";
+}
+.about .left .tit{
+	background: url(../img/jiandao.jpg) no-repeat left 0px bottom 0px;
+	overflow: hidden;
+	margin-bottom: 16px;
+	padding-bottom: 23px;
+}
+.about .left {
+	width: 450px;
+	margin-bottom: 40px;
+}
+.about .left p{
+	font: 14px/22px "";
+	color: #a3a3a3;
+}
+/*右边*/
+.about .about_right{
+	margin-top: 58px;
+	margin-left: 22px;
+}
+.about .about_right>div{
+	width: 497px;
+	height: 561px;
+	border:1px solid #c9c9c9;
+	position: relative;
+	
+}
+.about .about_right>div img{
+	margin-top: -40px;
+	margin-left: 40px;
+	width: 497px;
+	height: 561px;
+}
+.about .about_right>div .black{
+	position: absolute;
+	width: 122px;
+	height: 122px;
+	background: #999;
+	top: -77px;
+    right: -77px;
+    z-index: -1;
+}

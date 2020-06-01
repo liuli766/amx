@@ -1,0 +1,71 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin: 0;
+	padding: 0;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+a,span,img{
+	display: block;
+	text-decoration: none;
+}
+a{
+	color: #333;
+}
+li{
+	list-style: none;
+}
+/*头部*/
+.head{
+	position: relative;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 999;
+	margin: 0 auto;
+	transition: all 2s;
+	/*box-shadow: 0px -2.5px 5px inset;*/
+}
+header{
+	overflow: hidden;
+	background: url(../img/logo.jpg) no-repeat;
+	animation: zoomIn 2s;
+}
+header nav>a{
+	float: left;
+	width: 120px;
+	padding:30px 0 22px 0;
+	text-decoration: none;
+	color: #333;
+	text-align: center;
+	font-size: 18px;
+}
+header>nav{
+	position: relative;
+}
+header>nav span{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	width: 120px;
+	height: 3px;
+	background: #fc7861 ;
+}
+header nav>a:hover{
+	/*border-bottom: 5px solid #866961;*/
+	color: #FF1F17;
+	font-weight: 800;
+}
+/*footer*/
+.footer{
+	text-align: center;
+	height: 90px;
+	margin-top: 20px;
+	line-height: 90px;
+	background: #666;
+	color: #fff;
+	font-size: 14px;
+}
